@@ -1,0 +1,12 @@
+.music-title{
+    position: relative;
+}
+.music-title::before{
+    position: absolute;
+    width:10%;
+    height:8px;
+    content:"";
+    left:45%;
+    bottom:-12px;
+    background-color:#26262633;
+}
