@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 const Navbar = () => {
     const navLink = [
         { id: 1, name: "Home", to: "" },
-        { id: 2, name: "Journals", to: "" },
+        { id: 2, name: "Journals", to: "/journalsubjects" },
         { id: 3, name: "Research", to: "" },
         { id: 4, name: "About WEG", to: "" },
         { id: 6, name: "Global Team", to: "" },

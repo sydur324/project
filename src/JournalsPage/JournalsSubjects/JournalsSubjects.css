@@ -1,0 +1,18 @@
+.jornalsubs-bg{
+    background-image:url('../../assets/img/jornalSub_bg.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.informatic-head{
+    position: relative;
+}
+.informatic-head::before{
+    position: absolute;
+    height:8px;
+    width:20%;
+    left:0%;
+    bottom:-12px;
+    background-color:rgba(7, 7, 7, 0.143);
+    content:"";
+}

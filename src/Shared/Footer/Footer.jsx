@@ -1,4 +1,6 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { AiOutlineCopyrightCircle } from "react-icons/ai";
+
 const Footer = () => {
     return (
         <div>
@@ -57,6 +59,20 @@ const Footer = () => {
                         </div>
                     </div>
 
+                </div>
+            </div>
+            <div className="bg-[#950007] py-4 xl:px-20 lg:px-10 md:px-14 sm:px-12 px-12">
+                <div className="flex lg:items-center flex-wrap lg:gap-12 gap-4 text-center">
+                    <div className="flex items-center text-[#fff] text-sm space-x-1">
+                        <p><AiOutlineCopyrightCircle /></p>
+                        <p>2019 Westren Education Group. All Rights Reserved.</p>
+                    </div>
+
+                    <div className="flex items-center flex-wrap text-center justify-center space-x-8 text-sm text-[#ffffff86] cursor-pointer font-medium">
+                         <p className="hover:text-[#072159] duration-300">Accessibility </p>
+                         <p className="hover:text-[#072159] duration-300">Legal</p>
+                         <p className="hover:text-[#072159] duration-300">Privacy</p>
+                    </div>
                 </div>
             </div>
         </div>
