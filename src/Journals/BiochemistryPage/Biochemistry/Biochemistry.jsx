@@ -42,31 +42,31 @@ const Biochemistry = () => {
                             </div>
 
                             <div className='flex flex-wrap xl:flex-nowrap gap-2 text-sm cursor-pointer'>
-                                <p className='py-1 px-2 hover:bg-[#91000D] border font-semibold hover:text-[#fff]'>All</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>A</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>B</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>C</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>D</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>E</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>F</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>G</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>H</p>
-                                <p className='py-1 px-2 border bg-[#91000D] duration-300 cursor-pointer text-white'>I</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>J</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>K</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>L</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>M</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>N</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>O</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>P</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>Q</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>R</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>S</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>T</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>U</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>V</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>W</p>
-                                <p className='py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff]'>...</p>
+                                <p className='letter'>All</p>
+                                <p className='letter'>A</p>
+                                <p className='letter'>B</p>
+                                <p className='letter'>C</p>
+                                <p className='letter'>D</p>
+                                <p className='letter'>E</p>
+                                <p className='letter'>F</p>
+                                <p className='letter'>G</p>
+                                <p className='letter'>H</p>
+                                <p className='letter'>I</p>
+                                <p className='letter_active'>J</p>
+                                <p className='letter'>K</p>
+                                <p className='letter'>L</p>
+                                <p className='letter'>M</p>
+                                <p className='letter'>N</p>
+                                <p className='letter'>O</p>
+                                <p className='letter'>P</p>
+                                <p className='letter'>Q</p>
+                                <p className='letter'>R</p>
+                                <p className='letter'>S</p>
+                                <p className='letter'>T</p>
+                                <p className='letter'>U</p>
+                                <p className='letter'>V</p>
+                                <p className='letter'>W</p>
+                                <p className='letter'>...</p>
                             </div>
                         </div>
 

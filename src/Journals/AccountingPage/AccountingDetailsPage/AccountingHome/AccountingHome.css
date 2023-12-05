@@ -1,0 +1,20 @@
+.AccountingHome_bg{
+    background-image:url("../../../../assets/img/ijat.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.aimsscope{
+    position: relative;
+    display:inline-block;
+}
+.aimsscope::before{
+    position: absolute;
+    content:"";
+    width:30%;
+    height:10px;
+    background-color:#07215916;
+    content:"";
+    left:0;
+    bottom:-16px;
+}

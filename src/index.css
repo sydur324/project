@@ -5,3 +5,32 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+@layer components {
+    .page_width {
+        @apply xl:px-20 lg:px-10 md:px-14 sm:px-12 px-12
+    }
+    .letter {
+        @apply py-1 px-2 border hover:bg-[#91000D] duration-300 cursor-pointer hover:text-[#fff];
+    }
+    .letter_active {
+        @apply py-1 px-2 border bg-[#91000D] duration-300 cursor-pointer text-[#fff] hover:bg-[#732c32];
+    }
+    .journal_box {
+        @apply my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md
+    }
+    .journal_box_title {
+        @apply font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg 
+    }
+    .journal_box_upper {
+        @apply flex flex-wrap xl:flex-nowrap lg:flex-nowrap items-center justify-between my-4
+    }
+    .journal_box_upper_search_icon {
+        @apply bg-[#91000D] py-2 border border-[#91000D] px-3 text-white text-xl
+    }
+    .journal_box_width {
+        @apply xl:px-20 lg:px-10 md:px-14 sm:px-12 px-12 my-12
+    }
+    .journal_box_divided {
+        @apply flex flex-wrap lg:flex-nowrap lg:gap-8 gap-6
+    }
+}
