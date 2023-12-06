@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Bo Ouyang",
+        "title": "Pennsylvania State University, USA"
+    },
+    {
+        "id": 2,
+        "name": "Prof. Yousef Jahmani",
+        "title": "Ph.D., CPA , Savannah State University , USA."
+    },
+    {
+        "id": 3,
+        "name": "Dr Dimitrios Vortelinos",
+        "title": "Dept. of Accounting and Finance, University of Lincoln, UK."
+    },
+    {
+        "id": 4,
+        "name": "Dr. Abeer Hassan",
+        "title": "University of West of Scotland, UK"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Kadir Dabbagoglu",
+        "title": "Halic University, Istanbul, Turkey"
+    },
+    {
+        "id": 6,
+        "name": "Prof. Dr. Abdulnaser Nour",
+        "title": "Middle East University, Jordan."
+    },
+    {
+        "id": 7,
+        "name": "Dr. Percy MD PHATSHWANE",
+        "title": "University of Botswana, Gaborone, Botswana."
+    },
+    {
+        "id": 8,
+        "name": "Prof. Enyi Patrick Enyi",
+        "title": "Department of Accounting, Babcock University, Nigeria."
+    },
+    {
+        "id": 9,
+        "name": "D. Badir Alwan",
+        "title": "Dept. of Accounting, Philadelphia University, Jordan."
+    },
+    {
+        "id": 10,
+        "name": "Dr. Adel Mohammed Sarea",
+        "title": "Department of Accounting , Ahlia University of Bahrain."
+    },
+    {
+        "id": 11,
+        "name": "Dr. Mahmoud Aleqab",
+        "title": "Prince Sultan University, Riyadh, KSA."
+    },
+    {
+        "id": 12,
+        "name": "Dr. Ruchita Verma",
+        "title": "Central University of Rajsthan, India."
+    },
+    {
+        "id": 13,
+        "name": "Dr. Shamsi S. Bawaneh",
+        "title": "Princess Sumaya University for Technology (PSUT), Jordan."
+    }
+]

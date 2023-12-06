@@ -6,7 +6,7 @@ const AccountingNav = () => {
         { id: 2, name: "Current Issue", to: "" },
         { id: 3, name: "Aims & Scope", to: "/accountingPage/accountingamiscopp" },
         { id: 4, name: "Editorial Boad", to: "/accountingPage/accountinBoard" },
-        { id: 6, name: "Submission", to: "" },
+        { id: 6, name: "Submission", to: "/accountingPage/accountinSubmission" },
         { id: 7, name: "Resources", to: "" },
         { id: 8, name: "Browse Journals", to: "" },
         { id: 9, name: "Journal Policies", to: "" },

@@ -12,11 +12,11 @@ import Bank from "../Journals/BankPage/Bank/Bank";
 import Biochemistry from "../Journals/BiochemistryPage/Biochemistry/Biochemistry";
 import Business from "../Journals/BusinessPage/Business/Business";
 import Chemistry from "../Journals/ChemistryPage/Chemistry/Chemistry";
-import AccountingDetails from "../Journals/AccountingPage/AccountingDetailsPage/AccountingDetails/AccountingDetails";
 import AccoutingLayout from "../Layout/AccoutingLayout";
 import AccountingHome from "../Journals/AccountingPage/AccountingDetailsPage/AccountingHome/AccountingHome";
 import AccountingAimsscop from "../Journals/AccountingPage/AccountingDetailsPage/AccountingAimsscop/AccountingAimsscop";
 import AccountingEditorBoard from "../Journals/AccountingPage/AccountingDetailsPage/AccountingEditorBoard/AccountingEditorBoard";
+import AccountingSubmision from "../Journals/AccountingPage/AccountingDetailsPage/AccountingSubmision/AccountingSubmision";
 
   
  export const router = createBrowserRouter([
@@ -81,6 +81,10 @@ import AccountingEditorBoard from "../Journals/AccountingPage/AccountingDetailsP
                 {
                     path:"/accountingPage/accountinBoard",
                     element:<AccountingEditorBoard></AccountingEditorBoard>
+                },
+                {
+                    path:"/accountingPage/accountinSubmission",
+                    element:<AccountingSubmision></AccountingSubmision>
                 }
             ]
         }
