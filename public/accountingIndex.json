@@ -1,0 +1,65 @@
+[
+    {   "id":1,
+        "index":"CrossRef"
+    },
+    {   "id":2,
+        "index":"Cabell's"
+    },
+    {   "id":3,
+        "index":"Ulrich's"
+    },
+    {   "id":4,
+        "index":"Griffith Research Online"
+    },
+    {   "id":5,
+        "index":"Google Scholar"
+    },
+    {   "id":6,
+        "index":"Education.edu"
+    },
+    {   "id":7,
+        "index":"Informatics"
+    },
+    {   "id":8,
+        "index":"Universe Digital Library"
+    },
+    {   "id":9,
+        "index":"Standard Periodical Directory"
+    },
+    {   "id":10,
+        "index":"Gale"
+    },
+    {   "id":11,
+        "index":"Open J-Gate"
+    },
+    {   "id":12,
+        "index":"EBSCO"
+    },
+    {   "id":13,
+        "index":"Journal Seek"
+    },
+    {   "id":14,
+        "index":"DRJI"
+    },
+    {   "id":15,
+        "index":"ProQuest"
+    },
+    {   "id":16,
+        "index":"BASE"
+    },
+    {   "id":17,
+        "index":"InfoBase Index"
+    },
+    {   "id":18,
+        "index":"OCLC"
+    },
+    {   "id":19,
+        "index":"IBSS"
+    },
+    {   "id":20,
+        "index":"Academic Journal Databases"
+    },
+    {   "id":21,
+        "index":"Scientific Index"
+    }
+]

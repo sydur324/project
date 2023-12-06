@@ -17,6 +17,8 @@ import AccountingHome from "../Journals/AccountingPage/AccountingDetailsPage/Acc
 import AccountingAimsscop from "../Journals/AccountingPage/AccountingDetailsPage/AccountingAimsscop/AccountingAimsscop";
 import AccountingEditorBoard from "../Journals/AccountingPage/AccountingDetailsPage/AccountingEditorBoard/AccountingEditorBoard";
 import AccountingSubmision from "../Journals/AccountingPage/AccountingDetailsPage/AccountingSubmision/AccountingSubmision";
+import AccountingIndex from "../Journals/AccountingPage/AccountingDetailsPage/AccountingIndex/AccountingIndex";
+import AccountingSubscription from "../Journals/AccountingPage/AccountingDetailsPage/AccountingSubscription/AccountingSubscription";
 
   
  export const router = createBrowserRouter([
@@ -85,6 +87,14 @@ import AccountingSubmision from "../Journals/AccountingPage/AccountingDetailsPag
                 {
                     path:"/accountingPage/accountinSubmission",
                     element:<AccountingSubmision></AccountingSubmision>
+                },
+                {
+                    path:"/accountingPage/accountingindex",
+                    element:<AccountingIndex></AccountingIndex>
+                },
+                {
+                    path:"/accountingPage/accountingSubcription",
+                    element:<AccountingSubscription></AccountingSubscription>
                 }
             ]
         }

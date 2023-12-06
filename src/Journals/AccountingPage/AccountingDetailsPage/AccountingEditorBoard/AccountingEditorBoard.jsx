@@ -8,7 +8,7 @@ const AccountingEditorBoard = () => {
             <div className="my-8 space-y-3">
                 {
                     boards.map((board, index) => <div key={index}>
-                        <h2 className="flex  items-center space-x-2 font-medium"><span className="px-1 border-2 rounded text-sm">{board.id}</span><span>{board.name}</span></h2>
+                        <h2 className="flex  items-center space-x-2 font-medium">{board.name}</h2>
                         <p className="text-[#262525dd]">{board.title}</p>
                     </div>)
                 }
