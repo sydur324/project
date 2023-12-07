@@ -1,0 +1,15 @@
+.content{
+    display:none;
+}
+.active-content{
+    display:block;
+}
+
+.tabs{
+    background-color:#0A2258;
+    color:#fff;
+}
+.active-tabs.tabs{
+    background-color:#91000D;
+    color:#fff;
+}

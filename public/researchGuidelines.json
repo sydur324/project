@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "guideline":"Define and articulate a research question (formulate a research hypothesis)."
+    },
+    {
+        "id":2,
+        "guideline":"Identify possible sources of information in many types and formats."
+    },
+    {
+        "id":3,
+        "guideline":"Judge the scope of the project."
+    },
+    {
+        "id":4,
+        "guideline":"Reevaluate the research question based on the nature and extent of information available and the parameters of the research project."
+    },
+    {
+        "id":5,
+        "guideline":"Select the most appropriate investigative methods (surveys, interviews, experiments) and research tools (periodical indexes, databases, websites)."
+    },
+    {
+        "id":6,
+        "guideline":"Plan the research project."
+    },
+    {
+        "id":7,
+        "guideline":"Retrieve information using a variety of methods (draw on a repertoire of skills)."
+    },
+    {
+        "id":8,
+        "guideline":"Refine the search strategy as necessary."
+    },
+    {
+        "id":9,
+        "guideline":"Write and organize useful notes and keep track of sources."
+    },
+    {
+        "id":10,
+        "guideline":"Evaluate sources using appropriate criteria."
+    },
+    {
+        "id":11,
+        "guideline":"Synthesize, analyze and integrate information sources and prior knowledge."
+    },
+    {
+        "id":12,
+        "guideline":"Revise hypothesis as necessary."
+    },
+    {
+        "id":13,
+        "guideline":"Use information effectively for a specific purpose."
+    },
+    {
+        "id":14,
+        "guideline":"Understand such issues as plagiarism, ownership of information (implications of copyright to some extent), and costs of information."
+    },
+    {
+        "id":15,
+        "guideline":"Cite properly and give credit for sources of ideas."
+    }
+]
