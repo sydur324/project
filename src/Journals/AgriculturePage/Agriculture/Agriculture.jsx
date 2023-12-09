@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import img from '../../../assets/img/Agriculture.png'
 import { IoSearchOutline } from "react-icons/io5";
 
@@ -70,26 +71,28 @@ const Agriculture = () => {
                             </div>
                         </div>
 
-                        <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
-                            <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
-                            <div className='lg:w-2/3'>
-                                <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>Journal of Agriculture and Environmental Sciences</h2>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                                    <p>Dr. Ismatul Hidayah Ministry of Agriculture, Indonesian Agency</p>
+                        <Link to="/AgriculturePage">
+                            <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
+                                <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
+                                <div className='lg:w-2/3'>
+                                    <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>Journal of Agriculture and Environmental Sciences</h2>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
+                                        <p>Dr. Ismatul Hidayah Ministry of Agriculture, Indonesian Agency</p>
+                                    </div>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>ISSN:</p>
+                                        <p> 2334-2404 (Print Version) / 2334-2412 (Electronic Version)</p>
+                                    </div>
+                                    <p>
+                                        Journal of Agriculture and Environmental Sciences is a refereed international journal.
+                                        The journal publishes papers concerned with the advance of agriculture and environmental
+                                        science throughout the world.
+                                        It publishes original scientific work related to strategic and applied studies
+                                    </p>
                                 </div>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>ISSN:</p>
-                                    <p> 2334-2404 (Print Version) / 2334-2412 (Electronic Version)</p>
-                                </div>
-                                <p>
-                                    Journal of Agriculture and Environmental Sciences is a refereed international journal.
-                                    The journal publishes papers concerned with the advance of agriculture and environmental
-                                    science throughout the world.
-                                    It publishes original scientific work related to strategic and applied studies
-                                </p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
 
                 </div>

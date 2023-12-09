@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "quesition": "Is ‘The Journal’ a refereed journal?",
+        "ans": "Yes, The Journal is a fully peer reviewed journal. It follows double blind peer review policy. The journal strictly maintains the academic review policy and publication ethics."
+    },
+    {
+        "id": 2,
+        "quesition": "Is ‘International Journal of Accounting and Taxation’ an international journa?",
+        "ans": "Yes, International Journal of Accounting and Taxation is an international journal. Although the journal is published in U.S.A., the journal welcomes the contributions from researcher/academician of all the countries of the world."
+    },
+    {
+        "id": 3,
+        "quesition": "Does this journal assign DOI?",
+        "ans": "Yes. Each paper published in International Journal of Accounting and Taxation a DOI®number, which appears beneath the author's affiliation in the published paper. Click HERE to know what is DOI (Digital Object Identifier)? Click HERE to retrieve Digital Object Identifiers (DOIs) for journal articles, books, and chapters."
+    },
+    {
+        "id": 4,
+        "quesition": "Is the journal published in print?",
+        "ans": "Yes, the journal is published both in print and online."
+    },
+    {
+        "id": 5,
+        "quesition": "Is the journal indexed?",
+        "ans": "Yes, the journal is abstracted/indexed in: CrossRef, Cabell's, Ulrich's, Griffith Research Online, Google Scholar, Education.edu, Informatics, Universe Digital Library, Standard Periodical Directory,Gale, Open J-Gate, EBSCO, Journal Seek, DRJI, ProQuest, BASE, InfoBase Index, OCLC, IBSS, Academic Journal Databases, Scientific Index."
+    },
+    {
+        "id": 6,
+        "quesition": "What is E-Publication FirstTM?",
+        "ans": "E-Publication FirstTM is a feature offered through our journal platform. It allows PDF version of manuscripts that have been peer reviewed and accepted, to be hosted online prior to their inclusion in a final printed journal. Readers can freely access or cite the article. The accepted papers are published online within one week after the completion of all necessary publishing steps."
+    },
+    {
+        "id": 7,
+        "quesition": "Is the journal published in USA?",
+        "ans": "Yes, the journal is published in USA under the supervision of the Institute’s U.S. Center."
+    },
+    {
+        "id": 8,
+        "quesition": "What is the frequency of the journal?",
+        "ans": "The frequency of the journal is semi-annually (2 issues per year)."
+    },
+    {
+        "id": 9,
+        "quesition": "Is there any specific submission deadline?",
+        "ans": "Yes, there is a specific submission deadline for every issue of the journal. Visit the journal’s ‘Call for Papers’ section for more details. Since the journal is published bi-monthly, the interested contributor can submit the paper at any time to the executive editor at editor@aripd.net . The paper will be automatically considered for next issue of the journal."
+    },
+    {
+        "id": 10,
+        "quesition": "I want to know more about the review and publication process of the journal.",
+        "ans": "View the journal’s submission and review policy section."
+    },
+    {
+        "id": 11,
+        "quesition": "How much time does the journal take for complete review process?",
+        "ans": "The complete review process takes maximum two weeks after the acknowledgement of the submission e-mail of the contributor."
+    },
+    {
+        "id": 12,
+        "quesition": "When my paper will be published after the acceptance of my paper?",
+        "ans": "The accepted paper is generally published (online) within two weeks from the date of acceptance."
+    },
+    {
+        "id": 13,
+        "quesition": "When I will get the print copy of the journal?",
+        "ans": "The contributor gets the print copy of the journal within four weeks after online publication."
+    },
+    {
+        "id": 14,
+        "quesition": "Who is the publisher of the journal?",
+        "ans": "The journal is published by American Research Institute for Policy Development."
+    },
+    {
+        "id": 15,
+        "quesition": "I want to submit a paper to your journal. Does it fall within the scope of the journal?",
+        "ans": "Visit the ‘Scope’ menu of the journal in the website. If you are not sure about the suitability, write to the executive editor at editor@aripd.net"
+    },
+    {
+        "id": 16,
+        "quesition": "How can submit a paper?",
+        "ans": " Visit the ‘Submission’ menu of the journal. If you face any problem, contact with the executive editor at editor@aripd.net"
+    },
+    {
+        "id": 17,
+        "quesition": "Is there any publication fee?",
+        "ans": "Yes. There is a publication fee in the journal. The publication processing fee for a research paper is 220 USD. The author/corresponding author will get one print copy. However, the author may order for additional print copy. The charge for each additional print copy is 30 USD. The publication fee is charged only for accepted paper. The author/corresponding author has to pay the publication as per the method determined by the executive editor. The author will get official receipt of publication fee with proper seal and signature."
+    },
+    {
+        "id": 18,
+        "quesition": "Is there any copyright policy of the journal?",
+        "ans": "Copyrights for articles published in the journal are retained by the authors, with first publication rights granted to the journal. The journal/publisher is not responsible for subsequent uses of the work. It is the author's responsibility to bring an infringement action if so desired by the author."
+    },
+    {
+        "id": 19,
+        "quesition": "Does the journal have plagiarism policy?",
+        "ans": "Yes. The editorial board is very strict regarding plagiarism. The journal believes that taking the ideas and work of others without giving them credit is unfair and dishonest. Copying even one sentence from someone else's manuscript, or even one of your own that has previously been published, without proper citation is considered plagiarism-use your own words instead. The editorial board retains the absolute authority to reject the review process of a submitted manuscript if it subject to minor or major plagiarism and even may cancel the publication upon the complaint of victim(s) of plagiarism."
+    },
+    {
+        "id": 20,
+        "quesition": "Is there any specific ‘Author Guidelines’ of the journal?",
+        "ans": "Yes. Visit the ‘Manuscript Preparation Guidelines’ menu of the journal."
+    },
+    {
+        "id": 21,
+        "quesition": "Is the journal published in other languages except English?",
+        "ans": "No, the journal is published in English. But the authors of other languages can submit their papers to International Multilingual Journal of Contemporary Research."
+    },
+    {
+        "id": 22,
+        "quesition": "How can I contact with the executive editor?",
+        "ans": "You can contact with the executive editor at editor@aripd.net"
+    },
+    {
+        "id": 23,
+        "quesition": "I am interested to join the editorial board of the journal. What do I have to do?",
+        "ans": "Please visit the ‘Recruitment of Reviewers’ section of the journal."
+    }
+]
