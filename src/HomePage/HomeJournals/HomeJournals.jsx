@@ -3,6 +3,7 @@ import music from '../../assets/img/music.jpg'
 import art from '../../assets/img/art.jpg'
 import science from '../../assets/img/science.jpeg'
 import hospital from '../../assets/img/hospital.jpg'
+import { Link } from 'react-router-dom'
 
 const HomeJournals = () => {
     return (
@@ -40,15 +41,17 @@ const HomeJournals = () => {
                         </div>
                     </div>
 
-                    <div className='border p-6 flex flex-col justify-center items-center text-center group'>
-                        <div className='overflow-hidden'>
-                            <img className='group-hover:scale-105 duration-500' src={art} alt="" />
+                    <Link to='/ArtPage'>
+                        <div className='border p-6 flex flex-col justify-center items-center text-center group'>
+                            <div className='overflow-hidden'>
+                                <img className='group-hover:scale-105 duration-500' src={art} alt="" />
+                            </div>
+                            <div className='py-4'>
+                                <p className='text-[#91000D] font-medium'>Art and Art History</p>
+                                <h2 className='text-[#04205A] font-bold py-1 music-title'>INTERNATIONAL JOURNAL OF ART AND ART HISTORY</h2>
+                            </div>
                         </div>
-                        <div className='py-4'>
-                            <p className='text-[#91000D] font-medium'>Art and Art History</p>
-                            <h2 className='text-[#04205A] font-bold py-1 music-title'>INTERNATIONAL JOURNAL OF ART AND ART HISTORY</h2>
-                        </div>
-                    </div>
+                    </Link>
 
                     <div className='border p-6 flex flex-col justify-center items-center text-center group'>
                         <div className='overflow-hidden'>
@@ -71,7 +74,9 @@ const HomeJournals = () => {
                     </div>
 
                     <div>
-                         <h2 className='font-bold text-[#91000D] hover:text-[#04205A] duration-300 cursor-pointer'>Browser more Journals</h2>
+                        <Link to='/journalsubjects'>
+                            <h2 className='font-bold text-[#91000D] hover:text-[#04205A] duration-300 cursor-pointer'>Browser more Journals</h2>
+                        </Link>
                     </div>
 
                 </div>

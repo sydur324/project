@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import img from '../../../assets/img/Biochemistry.png'
 import { IoSearchOutline } from "react-icons/io5";
 
@@ -70,26 +71,28 @@ const Biochemistry = () => {
                             </div>
                         </div>
 
-                        <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
-                            <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
-                            <div className='lg:w-2/3'>
-                                <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>Journal of Chemistry and Biochemistry</h2>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                                    <p>Dr. Linda Gao, Department of Chemistry, University of Mary Hardin-Baylor, USA.</p>
+                        <Link to='/BiochemistryPage'>
+                            <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
+                                <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
+                                <div className='lg:w-2/3'>
+                                    <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>Journal of Chemistry and Biochemistry</h2>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
+                                        <p>Dr. Linda Gao, Department of Chemistry, University of Mary Hardin-Baylor, USA.</p>
+                                    </div>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>ISSN:</p>
+                                        <p> 2374-2712 (Print Version) / 2374-2720 (Electronic Version)</p>
+                                    </div>
+                                    <p>
+                                        Journal of Chemistry and Biochemistry is a peer-reviewed international
+                                        journal published by American Research Institute for Policy Development.
+                                        The Journal brings
+                                        together multidisciplinary interests in one journal and is to disseminate information
+                                    </p>
                                 </div>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>ISSN:</p>
-                                    <p> 2374-2712 (Print Version) / 2374-2720 (Electronic Version)</p>
-                                </div>
-                                <p>
-                                    Journal of Chemistry and Biochemistry is a peer-reviewed international
-                                    journal published by American Research Institute for Policy Development.
-                                    The Journal brings
-                                    together multidisciplinary interests in one journal and is to disseminate information
-                                </p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
 
                 </div>

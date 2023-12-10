@@ -34,7 +34,7 @@ const Footer = () => {
                         <h2 className="font-medium tracking-wider  py-4">INFORMATION FOR</h2>
 
                         <div className="text-sm space-y-2 text-[#ffffffb1] cursor-pointer">
-                            <p className="hover:text-[#91000D] cursor-pointer duration-300">E-Publication FirstTM</p>
+                            <p className="hover:text-[#91000D] cursor-pointer duration-300">E-Publication First<sup>TM</sup></p>
                             <p className="hover:text-[#91000D] cursor-pointer duration-300">Plagiarism Policy</p>
                             <p className="hover:text-[#91000D] cursor-pointer duration-300">Copyright Policy</p>
                             <p className="hover:text-[#91000D] cursor-pointer duration-300">Review Policy</p>

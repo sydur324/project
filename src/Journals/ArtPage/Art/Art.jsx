@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import img from '../../../assets/img/Art.png'
 import { IoSearchOutline } from "react-icons/io5";
 
@@ -70,27 +71,29 @@ const Art = () => {
                             </div>
                         </div>
 
-                        <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
-                            <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
-                            <div className='lg:w-2/3'>
-                                <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>International Journal of Art and Art History</h2>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                                    <p>Dr. Susan Lynn Brangers, Marywood University, USA.</p>
+                        <Link to="/ArtPage">
+                            <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
+                                <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
+                                <div className='lg:w-2/3'>
+                                    <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>International Journal of Art and Art History</h2>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
+                                        <p>Dr. Susan Lynn Brangers, Marywood University, USA.</p>
+                                    </div>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>ISSN:</p>
+                                        <p> 2374-2321 (Print Version) / 2374-233X (Electronic Version)</p>
+                                    </div>
+                                    <p>
+                                        International Journal of Art and Art History is a scholarly
+                                        journal which supports and promotes the study of the art and practice of
+                                        art historical writing. The journal is committed to studying art historical
+                                        scholarship,
+                                        in its institutional and conceptual foundations,
+                                    </p>
                                 </div>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>ISSN:</p>
-                                    <p> 2374-2321 (Print Version) / 2374-233X (Electronic Version)</p>
-                                </div>
-                                <p>
-                                    International Journal of Art and Art History is a scholarly
-                                    journal which supports and promotes the study of the art and practice of
-                                    art historical writing. The journal is committed to studying art historical
-                                    scholarship,
-                                    in its institutional and conceptual foundations,
-                                </p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
 
                 </div>

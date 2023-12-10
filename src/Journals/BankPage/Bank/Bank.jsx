@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import img from '../../../assets/img/BankManagement.png'
 import { IoSearchOutline } from "react-icons/io5";
 
@@ -70,26 +71,28 @@ const Bank = () => {
                             </div>
                         </div>
 
-                        <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
-                            <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
-                            <div className='lg:w-2/3'>
-                                <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>Journal of Finance and Bank Management</h2>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                                    <p>Dr. Donald Furman, State University of New York System, USA..</p>
+                        <Link to='/BankPage'>
+                            <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
+                                <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
+                                <div className='lg:w-2/3'>
+                                    <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>Journal of Finance and Bank Management</h2>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
+                                        <p>Dr. Donald Furman, State University of New York System, USA..</p>
+                                    </div>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>ISSN:</p>
+                                        <p> 2333-6064 (Print Version) /  2333-6072 (Electronic Version)</p>
+                                    </div>
+                                    <p>
+                                        Journal of Finance and Bank Management serves both academics and practitioners
+                                        concerned with the financial management of nonfinancial businesses, financial
+                                        institutions, banks and public or private not-for-profit organizations.
+                                        The journal publishes theoretical
+                                    </p>
                                 </div>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>ISSN:</p>
-                                    <p> 2333-6064 (Print Version) /  2333-6072 (Electronic Version)</p>
-                                </div>
-                                <p>
-                                    Journal of Finance and Bank Management serves both academics and practitioners
-                                    concerned with the financial management of nonfinancial businesses, financial
-                                    institutions, banks and public or private not-for-profit organizations.
-                                    The journal publishes theoretical
-                                </p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
 
                 </div>

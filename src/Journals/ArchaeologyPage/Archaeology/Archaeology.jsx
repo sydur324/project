@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import img from '../../../assets/img/Anthro.png'
 import { IoSearchOutline } from "react-icons/io5";
 
@@ -70,27 +71,29 @@ const Archaeology = () => {
                             </div>
                         </div>
 
-                        <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
-                            <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
-                            <div className='lg:w-2/3'>
-                                <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>Journal of Anthropology and Archaeology</h2>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
-                                    <p>Dr. Jing Lei, State University of New York at Oswego, USA.</p>
+                        <Link to='/ArchaeologyPage'>
+                            <div className='my-4 border-2 p-8 flex flex-wrap xl:flex-nowrap gap-4 cursor-pointer hover:shadow-md'>
+                                <div className='lg:w-1/4'> <img className='' src={img} alt="" /></div>
+                                <div className='lg:w-2/3'>
+                                    <h2 className='font-medium text-[#072159] xl:text-xl lg:text-xl md:text-xl text-lg '>Journal of Anthropology and Archaeology</h2>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>Editor-in-Chief:</p>
+                                        <p>Dr. Jing Lei, State University of New York at Oswego, USA.</p>
+                                    </div>
+                                    <div className='py-2'>
+                                        <p className='font-medium text-[#91000cae]'>ISSN:</p>
+                                        <p> 2334-2420 (Print Version) / 2334-2439 (Electronic Version)</p>
+                                    </div>
+                                    <p>
+                                        Journal of Anthropology and Archaeology is a peer-reviewed international journal,
+                                        which publishes original papers promoting theoretical, methodological and empirical
+                                        developments in the discipline of socio-cultural anthropology.
+                                        The journal provides a forum where a wide variety of different anthropologies can
+                                        gather together and enter into critical exchange.
+                                    </p>
                                 </div>
-                                <div className='py-2'>
-                                    <p className='font-medium text-[#91000cae]'>ISSN:</p>
-                                    <p> 2334-2420 (Print Version) / 2334-2439 (Electronic Version)</p>
-                                </div>
-                                <p>
-                                    Journal of Anthropology and Archaeology is a peer-reviewed international journal,
-                                    which publishes original papers promoting theoretical, methodological and empirical
-                                    developments in the discipline of socio-cultural anthropology.
-                                    The journal provides a forum where a wide variety of different anthropologies can
-                                    gather together and enter into critical exchange.
-                                </p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
 
                 </div>

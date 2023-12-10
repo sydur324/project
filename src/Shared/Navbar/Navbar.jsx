@@ -10,9 +10,9 @@ const Navbar = () => {
         { id: 1, name: "Home", to: "" },
         { id: 2, name: "Journals", to: "/journalsubjects" },
         { id: 3, name: "Research", to: "/researchPage" },
-        { id: 4, name: "About WEG", to: "" },
+        { id: 4, name: "About WEG", to: "/aboutWEG" },
         { id: 6, name: "Global Team", to: "" },
-        { id: 7, name: "Contact", to: "" },
+        { id: 7, name: "Contact", to: "/contact" },
     ]
 
     const [isOpen, setIsOpen] = useState(false)
@@ -50,7 +50,9 @@ const Navbar = () => {
                                 }
                             </div>
                             <div className='flex items-center text-sm font-medium space-x-3 text-[#393939]'>
-                                <button className='py-2 px-3 border hover:bg-[#950007]  hover:border-transparent hover:text-white duration-300 rounded'>Sign In / Sign Up</button>
+                                <Link to='/login'>
+                                    <button className='py-2 px-3 border hover:bg-[#950007]  hover:border-transparent hover:text-white duration-300 rounded'>Sign In / Sign Up</button>
+                                </Link>
                                 <button className='py-2 px-4 bg-[#950007] text-white tracking-wider
                  hover:bg-[#853336] duration-300 rounded'>
                                     Submit
@@ -86,10 +88,10 @@ const Navbar = () => {
                                     </li>)
                                 }
                             </div>
-                            <div className=''>
-                                <p className=''>Sign In</p>
-                                <p className=''>Sing Up</p>
-                                <p className=''>
+                            <div className='list-none font-medium bg-[#91000c23] text-[#262626]'>
+                                <p className='border-b px-14 py-4'>Sign In</p>
+                                <p className='border-b px-14 py-4'>Sing Up</p>
+                                <p className='border-b px-14 py-4'>
                                     Submit
                                 </p>
                             </div>

@@ -5,7 +5,7 @@ import { FiSearch } from "react-icons/fi";
 const Banner = () => {
     return (
         <div className='mt-24'>
-            <div className='banner-bg py-20 lg:px-20'>
+            <div className='banner-bg xl:px-20 lg:px-10 md:px-14 sm:px-12 px-12 py-20'>
                 <h2 className='text-white font-bold py-2 text-xl uppercase'>Westren Education Group</h2>
                 <p className='text-[#ffffffb2]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aliquid, distinctio. <br></br>Tenetur pariatur mollitia optio non quae porro,
